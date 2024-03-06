@@ -1,0 +1,30 @@
+{
+  "name": "vite-plugin-mdx",
+  "version": "0.0.1",
+  "keywords": [],
+  "scripts": {
+    "build": "rimraf dist && rollup --bundleConfigAsCjs --config ./rollup.config.js"
+  },
+  "author": "",
+  "license": "MIC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@rollup/pluginutils": "^5.1.0",
+    "@types/react": "^18.2.61",
+    "@types/react-dom": "^18.2.19",
+    "@vitejs/plugin-react": "^4.2.1",
+    "@vitejs/plugin-vue-jsx": "^3.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rimraf": "^5.0.5",
+    "rollup": "^4.12.0",
+    "typescript": "^5.3.3",
+    "vite": "^5.1.4",
+    "vue": "^3.4.21"
+  },
+  "dependencies": {
+    "@mdx-js/mdx": "^3.0.1"
+  }
+}
